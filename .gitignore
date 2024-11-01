@@ -1,0 +1,21 @@
+# R stuff
+.Rproj.user
+.Rhistory
+.RData
+
+# Quarto stuff
+*_files/*
+manuscript.html
+
+scratch.md
+
+# Miscellaneous
+*.~lock.*
+.DS_Store
+.dropbox
+Icon?
+admin/*
+
+/.luarc.json
+
+/.quarto/
