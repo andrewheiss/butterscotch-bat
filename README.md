@@ -2,7 +2,7 @@
 
 <!-- README.md is generated from README.qmd. Please edit that file -->
 
-## 🧑‍🍼🦇: Note on “butterscotch bat
+## 🍬🦇: Note on “butterscotch bat
 
 Because project titles change all the time with revisions, rewriting,
 and peer review, we used [{codename}](http://svmiller.com/codename/) to
