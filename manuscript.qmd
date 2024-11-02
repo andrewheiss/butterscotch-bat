@@ -23,6 +23,7 @@ author:
   attributes:
     corresponding: true
 bibliography: references.bib
+csl: csl/american-sociological-association.csl
 toc: true
 format:
   wordcount-html: 
@@ -90,7 +91,7 @@ nodes <- tribble(
 
 edges <- tibble(
   from = c(1, 1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5),
-  to = c(2, 3, 4, 5, 6, 7, 8, 6, 7, 8, 6, 7, 8, 6, 7, 8)
+  to =   c(2, 3, 4, 5, 6, 7, 8, 6, 7, 8, 6, 7, 8, 6, 7, 8)
 )
 
 actors <- tribble(
@@ -158,17 +159,92 @@ Though the majority of anti-NGO laws have targeted foreign funding, other laws s
 
 Overall bilateral aid does not decrease significantly in response to new barriers to entry, but the distribution channels of that aid shift as donor countries channel more aid through domestic rather than foreign NGOs [@ChaudhryHeiss:2024]. USAID even explicitly encourages its program managers to rely more on domestic, in-country NGOs when facing a restrictive legal environment [@USAID:2014]. In addition to changing the amounts and recipients of foreign aid, donor agencies often adjust the focus of the programs they fund, redirecting funding away from programs related to politically sensitive issues like human rights, anti-corruption, and democratic development and towards tamer topics that are more compatible with recipient-country preferences, such as education, health, and humanitarian services [@Bush:2015; @CheesemanDesrosiers:2023].
 
-These shifts in funding patterns in response to restrictive civil society laws have had measurable effects on NGOs in recipient countries. Samantha Power, current administrator of USAID, has pledged to send 25% of USAID funding to local NGOs over the next few years, though practical obstacles remain. New local partners take longer to vet and train compared to established INGO partners. Turning to local organizations entails greater risk, as domestic NGOs can be easily shut down based on the whims of the government. Additionally,  communities often distrust local groups that accept Western aid, especially those focused on democracy assistance. Donor preferences have also changed. Over the past two decades, bilateral donors have increasingly provided short-term grants for projects that have easily measurable, quantifiable outputs [@Bush:2015]. This model may work well for civic groups working on relatively tame causes or exclusively development-focused goals, but more contentious organizations facing government crackdown may need flexible funding that does not bring immediate results or does not have easily measurable goals.
+These shifts in funding patterns in response to restrictive civil society laws have had measurable effects on NGOs in recipient countries. Samantha Power, current administrator of USAID, has pledged to send 25% of USAID funding to local NGOs over the next few years [@Power:2021], though practical obstacles remain. New local partners take longer to vet and train compared to established INGO partners. Turning to local organizations entails greater risk, as domestic NGOs can be easily shut down based on the whims of the government. Additionally,  communities often distrust local groups that accept Western aid, especially those focused on democracy assistance [@Barkan:2012]. Donor preferences have also changed. Over the past two decades, bilateral donors have increasingly provided short-term grants for projects that have easily measurable, quantifiable outputs [@Bush:2015]. This model may work well for civic groups working on relatively tame causes or exclusively development-focused goals, but more contentious organizations facing government crackdown may need flexible funding that does not bring immediate results or does not have easily measurable goals [@Herrold:2020].
 
 
-## Private donors and foundations
+## Private donors
 
-- Why individual donors are important
-- Donor reactions are more than just binary, but there now fancy figure 1 decision tree yet, since (1) the existing literature is much smaller, and (2) individual donors have less power in relation to states. Countries don’t counter-react to donor shifts in behavior
-- Different pathways exist, though, depending on donor preferences and organization characteristics. As with diverging studies in the effect of repression on formal aid, there are different effects. Experiment paper + simulation paper + conjoint paper (getting at donor and org features)
+As explored above, given the centrality of aid in domestic foreign policy decisions and economic development strategy, substantial research in development economics, political science, and international relations has looked at the motivations behind bilateral and multilateral foreign aid, especially in response to human rights abuses in recipient states. However, states and international organizations are not the only institutions that engage in international giving. Private individuals exercise power and influence in unique ways that differ from other non-state actors. Since 2000, foreign aid funding from philanthropic foundations and individual donors in the United States has more than doubled [@DesaiKharas:2018], with nearly \$30 billion donated to international affairs and development organizations in 2023 [@GivingUSA:2024]. This growth in private foreign aid has had a substantial effect on overall international  aid flows and often serves as a complement to official bilateral and multilateral aid, particularly in response to acute humanitarian crises [@DesaiKharas:2018]. 
 
-In other cases, donors shift their aid to different programs. - both good and bad. Bush and taming + USAID
+Understanding the dynamics of supporting international causes is important as philanthropy towards such causes can be harder to motivate. Work in nonprofit and philanthropic studies has long explored the personal motivations of individual donors, including reputation, altruism, and psychological benefits [see @BekkersWiepking:2011 for an exploration of eight different motivating mechanisms], but less research—particularly in political science and international  relations—has been done regarding the organizational or institutional mechanisms that drive donor behavior. Donors are motivated by the broader political and institutional contexts of NGO programming, and individuals are less likely to donate to foreign nonprofits and prefer giving to local causes, since the result of their giving is more visible [@CasaleBaumann:2015; @Tremblay-BoirePrakash:2017; @Wiepking:2010].
 
-While research in public policy examines philanthropic giving to NGOs, the discipline of political science and international relations tends to see philanthropy as less relevant. However, philanthropy can help us understand changes in the dynamics of global governance. Private individuals exercise power and influence in unique ways that differ from other non-state actors. Understanding the dynamics of supporting international causes is important as philanthropy towards such causes can be harder to motivate because the number of recipients is larger and further removed from the donor.
+Donor motivations influence how individuals respond when potential recipient organizations face legal trouble abroad. However, the exact menu of responses is more limited than what is available to bilateral and multilateral states, as seen previously in @fig-individual-response-tree, and far more understudied. @fig-individual-response-tree presents a preliminary framework for outlining possible individual donor responses to anti-NGO repression. When a potential recipient NGO faces legal crackdown in its host country, thus limiting its operations, interested individual donors can respond by (1) increasing their donations, as a sign of support and solidarity, (2) decreasing their donations, punishing the NGO for doing something to run afoul of its host government, or (3) not considering the host country legal environment and making no change in their donation behavior. @ChaudhryDotsonHeiss:2021 explore how different combinations of donor characteristics determine which response individuals are likely to take when NGOs face crackdown. They find that donors with longer experiences with the nonprofit sector and high levels of social trust—i.e. those who frequently volunteer, regularly donate to charity, and trust political institutions—are more likely to maintain their support for international NGOs that face criticism or crackdown abroad. 
 
-While private sources can help raise such funds, official donor aid may not be easily replaceable by other sources. Testimony at a US Senate Committee on Foreign Relations hearing maintained that, “Neither remittances nor philanthropy can replace the expertise, scale, or agenda setting capacity of American foreign policy assistance.” Thus, despite promising new research on how to raise funds from private sources for besieged NGOs abroad, official aid donors also need to mount a coherent response to the shrinking civic space.
+```{r}
+#| label: fig-individual-response-tree
+#| fig-cap: Possible individual responses to civil society restrictions in recipient countries
+#| include: true
+#| fig-width: 6
+#| fig-height: 2.8
+#| out-width: 80%
+
+nodes <- tribble(
+  ~id, ~x, ~y, ~step,
+  1,   0,  3,  "Restrict civil society",
+  2,   1,  4,  "Do nothing",
+  3,   1,  3,  "Increase\ndonations",
+  4,   1,  2,  "Decrease\ndonations",
+  5,   2,  3,  "?"
+)
+
+edges <- tibble(
+  from = c(1, 1, 1, 2, 3, 4),
+  to =   c(2, 3, 4, 5, 5, 5)
+)
+
+actors <- tribble(
+  ~actor, ~label, ~x,
+  "Recipient", "NGO host government\naction", 0,
+  "Donor", "Individual donor\nresponse", 1,
+  "NGO", "NGO\nresponse", 2
+) |>
+  mutate(
+    xmin = x - 0.5,
+    xmax = x + 0.5
+  )
+
+tidy_graph <- tbl_graph(nodes = nodes, edges = edges) |> 
+  create_layout(layout = nodes)
+
+ggraph(tidy_graph) +
+  geom_rect(
+    data = actors, aes(xmin = xmin, xmax = xmax, ymin = -Inf, ymax = 4.2, fill = actor), inherit.aes = FALSE,
+    alpha = 0.25
+  ) +
+  geom_rect(
+    data = actors, aes(xmin = xmin, xmax = xmax, ymin = 4.2, ymax = Inf, fill = actor), inherit.aes = FALSE,
+    alpha = 0.5
+  ) +
+  geom_text(
+    data = actors, aes(x = x, y = 4.4, label = label), inherit.aes = FALSE,
+    size = 3.5,
+    fontface = "bold", lineheight = 1
+  ) +
+  geom_node_label(
+    aes(x = x, y = y, label = step),
+    label.r = unit(0, units = "pt"),
+    size = 3.5, lineheight = 1, fontface = "bold"
+  ) +
+  geom_edge_link(
+    aes(
+      start_cap = label_rect(node1.step, padding = margin(5, 5, 5, 5, "pt")),
+      end_cap = label_rect(node2.step, padding = margin(5, 5, 5, 5, "pt"))
+    ),
+    arrow = arrow(angle = 30, length = unit(6, "pt"), type = "closed"),
+    edge_linewidth = 0.25, color = "grey40"
+  ) +
+  scale_x_continuous(expand = expansion(0)) +
+  scale_fill_manual(values = c("grey40", "grey5", "grey80"), guide = "none") +
+  expand_limits(y = c(1.8, 4.5)) +
+  theme_void()
+```
+
+Additional experimental evidence examines how donors react to the knowledge that potential recipient NGOs face legal difficulties. In a vignette-based factorial experiment, @ChaudhryHeiss:2021 find that foreign civil society restrictions serve as a heuristic when deciding to donate—learning about NGO repression increases individual generosity and causes potential donors to be willing to give substantially more to legally restricted nonprofits. This effect is strongest for privately-funded human rights-focused NGOs that face legal crackdown, as individuals feel that the organization deserves their support. Several participants justified their increased support because the experimental organization is "doing good work in countries where it is tough for groups like them to operate and they
+need all the help they can get" [@ChaudhryHeiss:2021, 496]. Building on this work, @ChaudhryDotsonHeiss:2024 use a survey experiment to examine how organizational characteristics (e.g., issue area, funding sources) and practices (e.g., financial transparency) interact with structural concerns like legal crackdown abroad. They find that, all else equal, legal crackdown on its own causes donors to reduce their support for nonprofits—individuals are 5–10 percentage points less likely to donate to an NGO that is criticized or restricted, compared to an organization that enjoys a friendly relationship with its host government. However, this reduction in support can be offset by organizational characteristics. Financial transparency and accountability protect each increase the probability of donations by nine percentage points under the worst conditions of legal crackdown. Individual donors thus typically reduce their support when seeing legal crackdown, but change their response and increase their when seeing other signs that the organization follows best practices and is more deserving.
+
+The question of how organizations respond to different donor reactions to legal crackdown remains unexplored (see the far right panel of @fig-individual-response-tree). To our knowledge, no work has been done regarding individual-level nonprofit fundraising strategies in the face of closing civic space, opening promising avenues for future research.
+
+While private donations have become an important source of funding in the age of closing civi space and increased restrictions on official foreign funding, they are unlikely to full supplant large bilateral and multilateral sources of foreign aid, nor can they serve national foreign policy interests like more standard foreign aid. Testimony at a 2017 US Senate Committee on Foreign Relations hearing maintained that "[n]either remittances nor philanthropy can replace the expertise, scale, or agenda setting capacity of American foreign policy assistance" [@Runde:2017]. Thus, despite promising new research on how to raise funds from private sources for besieged NGOs abroad, official aid donors also need to mount a coherent response to the shrinking civic space.
+
+
+# References
