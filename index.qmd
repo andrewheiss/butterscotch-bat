@@ -63,7 +63,7 @@ update_geom_defaults("text", list(family = "Inter"))
 update_geom_defaults("label", list(family = "Inter"))
 ```
 
-::: {.content-visible when-format="wordcount-html"}
+::: {.content-visible when-format="html"}
 # Introduction {.hide}
 :::
 
