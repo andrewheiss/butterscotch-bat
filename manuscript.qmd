@@ -1,6 +1,7 @@
 ---
 title: "Donor Responses to Civil Society Repression"
 subtitle: "Chapter for the *Handbook of Political Control*"
+date: 2024-11-04
 author:
 - name: Suparna Chaudhry
   affiliation: Lewis and Clark College
@@ -28,6 +29,12 @@ toc: true
 format:
   wordcount-html: 
     wordcount-banner: true
+    shift-heading-level-by: 1
+    theme: 
+      - zephyr
+      - html/custom.scss
+    template-partials: 
+      - html/title-metadata.html
     include-in-header:
       - text: |
           <style type="text/css">
@@ -35,9 +42,31 @@ format:
             display: none;
           }
           </style>
+    knitr:
+      opts_chunk:
+        dev: "ragg_png"
+        dpi: 300
+  
+  # Nice PDF output
+  hikmah-pdf:
+    toc: false
+    # Custom fonts
+    mainfont: "Linux Libertine O"
+    mainfontoptions:
+      - "Numbers=Proportional"
+      - "Numbers=OldStyle"
+    sansfont: "Inter"
+    mathfont: "Libertinus Math"
+    # linestretch: 1.05
+
+    knitr:
+      opts_chunk:
+        dev: "cairo_pdf"
 params:
   wordcount: |
     <strong>{{< words-sum body-ref >}} total words</strong>: {{< words-body >}} in the body • {{< words-ref >}} in the references
+language: 
+  title-block-published: "Latest version"
 ---
 
 ::: {.content-visible when-meta="wordcount-banner"}
@@ -60,6 +89,9 @@ knitr::opts_chunk$set(
 library(tidyverse)
 library(tidygraph)
 library(ggraph)
+
+update_geom_defaults("text", list(family = "Inter"))
+update_geom_defaults("label", list(family = "Inter"))
 ```
 
 ::: {.content-visible when-format="wordcount-html"}
