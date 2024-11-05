@@ -24,6 +24,9 @@ author:
   url: https://www.suparnachaudhry.com/
   email: schaudhry@lclark.edu
 
+abstract: |
+  This chapter examines donor responses to the global crackdown on civil society, where governments use legal measures to repress NGOs. Donors, including bilateral and multilateral agencies, respond variably; bilateral aid often decreases following anti-NGO laws, while multilateral aid remains stable. Private donors' responses depend on factors like social trust and NGO transparency. NGOs adapt by diversifying funding, forming affiliates, or shifting to community-based support. As the space for civil society continues to shrink, coordinated international efforts are essential to counteract these repressive trends and uphold civil society's role in democratic governance.
+
 bibliography: references.bib
 csl: csl/chicago-author-date.csl
 

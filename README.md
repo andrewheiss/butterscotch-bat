@@ -27,12 +27,16 @@ College
 
 ## Abstract
 
-Given the increase in administrative and legal repression of civil
-society, how have their donors responded? How do these responses differ
-across foreign government and private donors? How have local
-philanthropists and NGOs adapted and responded to such repression? What
-challenges do civil society groups continue to face despite these
-responses?
+This chapter examines donor responses to the global crackdown on civil
+society, where governments use legal measures to repress NGOs. Donors,
+including bilateral and multilateral agencies, respond variably;
+bilateral aid often decreases following anti-NGO laws, while
+multilateral aid remains stable. Private donors’ responses depend on
+factors like social trust and NGO transparency. NGOs adapt by
+diversifying funding, forming affiliates, or shifting to community-based
+support. As the space for civil society continues to shrink, coordinated
+international efforts are essential to counteract these repressive
+trends and uphold civil society’s role in democratic governance.
 
 ## 🍬🦇: Note on “butterscotch bat” project name
 
