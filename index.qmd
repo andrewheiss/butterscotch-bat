@@ -23,8 +23,13 @@ author:
   orcid: 0000-0003-3506-7590
   url: https://www.suparnachaudhry.com/
   email: schaudhry@lclark.edu
+
 bibliography: references.bib
 csl: csl/chicago-author-date.csl
+
+doi: 10.31235/osf.io/9gmhp
+doi-title: SocArXiv preprint
+
 params:
   wordcount: |
     <strong>{{< words-sum body-ref >}} total words</strong>: {{< words-body >}} in the body • {{< words-ref >}} in the references

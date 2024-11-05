@@ -8,19 +8,19 @@ project:
     - "index.qmd"
 
 language: 
-  title-block-published: "Latest version"
+  title-block-published: Latest version
+  related-formats-title: Other formats
+  other-links-title: Other links
 
 format:
   wordcount-html: 
-    toc: true
     wordcount-banner: true
+    toc: true
     shift-heading-level-by: 1
-    title-block-banner: true
     theme: 
       - zephyr
       - html/custom.scss
-    # template-partials: 
-    #   - html/title-metadata.html
+    title-block-banner: "#000D51"
     include-in-header:
       - text: |
           <style type="text/css">
@@ -28,11 +28,29 @@ format:
             display: none;
           }
           </style>
+
+    format-links:
+      - html
+      - format: hikmah-pdf
+        text: PDF version
+        icon: file-pdf
+
+    other-links:
+      - text: GitHub repository
+        href: https://github.com/andrewheiss/butterscotch-bat/
+        icon: github
+      - text: SocArXiv preprint
+        href: https://doi.org/10.31235/osf.io/9gmhp
+        icon: link-45deg
+      - text: OSF project
+        href: https://doi.org/10.17605/OSF.IO/R97Y3
+        icon: link-45deg
+
     knitr:
       opts_chunk:
         dev: "ragg_png"
         dpi: 300
-  
+
   # Nice PDF output
   hikmah-pdf:
     output-file: manuscript-example.pdf
