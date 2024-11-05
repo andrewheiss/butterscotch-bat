@@ -10,7 +10,7 @@
 [![OSF
 DOI](https://img.shields.io/badge/OSF-10.17605%2FOSF.IO%2FR97Y3-blue)](https://doi.org/10.17605/OSF.IO/R97Y3)
 [![Code
-DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12817616.svg)](https://doi.org/10.5281/zenodo.12817616)
+DOI](https://img.shields.io/badge/Code-10.5281%2Fzenodo.14038467-blue)](https://doi.org/10.5281/zenodo.14038467)
 <!-- badges: end -->
 
 [Andrew Heiss](https://www.andrewheiss.com/) • Andrew Young School of
