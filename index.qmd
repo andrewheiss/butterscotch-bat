@@ -25,48 +25,9 @@ author:
   email: schaudhry@lclark.edu
 bibliography: references.bib
 csl: csl/chicago-author-date.csl
-toc: true
-format:
-  wordcount-html: 
-    wordcount-banner: true
-    shift-heading-level-by: 1
-    theme: 
-      - zephyr
-      - html/custom.scss
-    template-partials: 
-      - html/title-metadata.html
-    include-in-header:
-      - text: |
-          <style type="text/css">
-          h2.hide {
-            display: none;
-          }
-          </style>
-    knitr:
-      opts_chunk:
-        dev: "ragg_png"
-        dpi: 300
-  
-  # Nice PDF output
-  hikmah-pdf:
-    toc: false
-    # Custom fonts
-    mainfont: "Linux Libertine O"
-    mainfontoptions:
-      - "Numbers=Proportional"
-      - "Numbers=OldStyle"
-    sansfont: "Inter"
-    mathfont: "Libertinus Math"
-    # linestretch: 1.05
-
-    knitr:
-      opts_chunk:
-        dev: "cairo_pdf"
 params:
   wordcount: |
     <strong>{{< words-sum body-ref >}} total words</strong>: {{< words-body >}} in the body • {{< words-ref >}} in the references
-language: 
-  title-block-published: "Latest version"
 ---
 
 ::: {.content-visible when-meta="wordcount-banner"}

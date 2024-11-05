@@ -1,0 +1,50 @@
+project:
+  type: default
+  output-dir: _output
+  preview: 
+    port: 4444
+
+  render: 
+    - "index.qmd"
+
+language: 
+  title-block-published: "Latest version"
+
+format:
+  wordcount-html: 
+    toc: true
+    wordcount-banner: true
+    shift-heading-level-by: 1
+    title-block-banner: true
+    theme: 
+      - zephyr
+      - html/custom.scss
+    # template-partials: 
+    #   - html/title-metadata.html
+    include-in-header:
+      - text: |
+          <style type="text/css">
+          h2.hide {
+            display: none;
+          }
+          </style>
+    knitr:
+      opts_chunk:
+        dev: "ragg_png"
+        dpi: 300
+  
+  # Nice PDF output
+  hikmah-pdf:
+    output-file: manuscript-example.pdf
+    # Custom fonts
+    mainfont: "Linux Libertine O"
+    mainfontoptions:
+      - "Numbers=Proportional"
+      - "Numbers=OldStyle"
+    sansfont: "Inter"
+    mathfont: "Libertinus Math"
+    # linestretch: 1.05
+
+    knitr:
+      opts_chunk:
+        dev: "cairo_pdf"
