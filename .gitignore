@@ -5,8 +5,7 @@
 
 # Quarto stuff
 *_files/*
-manuscript.html
-manuscript.pdf
+_output/
 
 scratch.md
 
