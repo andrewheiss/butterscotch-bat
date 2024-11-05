@@ -11,7 +11,7 @@ preprint](https://img.shields.io/badge/HTML%20preprint-FF851B.png)](https://stat
 [![PDF
 preprint](https://img.shields.io/badge/PDF%20preprint-3D9970.png)](https://stats.andrewheiss.com/butterscotch-bat/manuscript.pdf)
 [![SocArXiv
-Preprint](https://img.shields.io/badge/SocArXiv%20preprint-10.31235%2Fosf.io%2F9gmhp-blue)](https://doi.org/10.31235/osf.io/9gmhp)
+Preprint](https://img.shields.io/badge/SocArXiv%20preprint-10.31235%2Fosf.io%2F9gmhp-blue)](https://doi.org/10.31235/osf.io/9gmhp)  
 [![OSF
 DOI](https://img.shields.io/badge/OSF-10.17605%2FOSF.IO%2FR97Y3-blue)](https://doi.org/10.17605/OSF.IO/R97Y3)
 [![Code
