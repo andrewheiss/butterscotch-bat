@@ -14,7 +14,7 @@ knitr::opts_chunk$set(
 
 library(emoji)
 
-yaml_metadata <- rmarkdown::yaml_front_matter("manuscript.qmd")
+yaml_metadata <- rmarkdown::yaml_front_matter("index.qmd")
 title <- yaml_metadata$title
 # abstract <- yaml_metadata$abstract
 abstract <- "Given the increase in administrative and legal repression of civil society, how have their donors responded? How do these responses differ across foreign government and private donors? How have local philanthropists and NGOs adapted and responded to such repression? What challenges do civil society groups continue to face despite these responses?"

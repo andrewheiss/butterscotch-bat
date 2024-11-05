@@ -7,9 +7,9 @@
 <!-- badges: start -->
 
 [![HTML
-preprint](https://img.shields.io/badge/HTML%20preprint-FF851B.png)](https://stats.andrewheiss.com/butterscotch-bat/manuscript.html)
+preprint](https://img.shields.io/badge/HTML%20preprint-FF851B.png)](https://stats.andrewheiss.com/butterscotch-bat/)
 [![PDF
-preprint](https://img.shields.io/badge/PDF%20preprint-3D9970.png)](https://stats.andrewheiss.com/butterscotch-bat/manuscript.pdf)
+preprint](https://img.shields.io/badge/PDF%20preprint-3D9970.png)](https://stats.andrewheiss.com/butterscotch-bat/heiss-chaudhry-donor-responses-chapter.pdf)
 [![SocArXiv
 Preprint](https://img.shields.io/badge/SocArXiv%20preprint-10.31235%2Fosf.io%2F9gmhp-blue)](https://doi.org/10.31235/osf.io/9gmhp)  
 [![OSF
