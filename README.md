@@ -2,6 +2,33 @@
 
 <!-- README.md is generated from README.qmd. Please edit that file -->
 
+# Donor Responses to Civil Society Repression
+
+<!-- badges: start -->
+
+[![Preprint](https://img.shields.io/badge/Preprint-10.31235%2Fosf.io%2F9gmhp-blue)](https://doi.org/10.31235/osf.io/9gmhp)
+[![OSF
+DOI](https://img.shields.io/badge/OSF-10.17605%2FOSF.IO%2FR97Y3-blue)](https://doi.org/10.17605/OSF.IO/R97Y3)
+[![Code
+DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12817616.svg)](https://doi.org/10.5281/zenodo.12817616)
+<!-- badges: end -->
+
+[Andrew Heiss](https://www.andrewheiss.com/) • Andrew Young School of
+Policy Studies • Georgia State University  
+[Suparna Chaudhry](https://www.suparnachaudhry.com/) • Lewis and Clark
+College
+
+------------------------------------------------------------------------
+
+## Abstract
+
+Given the increase in administrative and legal repression of civil
+society, how have their donors responded? How do these responses differ
+across foreign government and private donors? How have local
+philanthropists and NGOs adapted and responded to such repression? What
+challenges do civil society groups continue to face despite these
+responses?
+
 ## 🍬🦇: Note on “butterscotch bat” project name
 
 Because project titles change all the time with revisions, rewriting,
