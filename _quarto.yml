@@ -53,7 +53,7 @@ format:
 
   # Nice PDF output
   hikmah-pdf:
-    output-file: manuscript-example.pdf
+    output-file: heiss-chaudhry-donor-responses-chapter.pdf
     # Custom fonts
     mainfont: "Linux Libertine O"
     mainfontoptions:
