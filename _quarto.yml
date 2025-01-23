@@ -67,3 +67,13 @@ format:
     knitr:
       opts_chunk:
         dev: "cairo_pdf"
+  
+  # Manuscript-y Word
+  docx:
+    output-file: heiss-chaudhry-donor-responses-chapter.docx
+    reference-doc: pandoc/reference-styles.docx
+
+    knitr:
+      opts_chunk:
+        dev: "ragg_png"
+        dpi: 300
