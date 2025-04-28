@@ -1,7 +1,7 @@
 ---
 title: "Donor Responses to Civil Society Repression"
 subtitle: "Chapter for the *Handbook of Political Control*"
-date: 2025-03-16
+date: 2025-04-28
 author:
 - name: Andrew Heiss
   affiliations: 
@@ -96,10 +96,19 @@ One reason for such mixed results is that the decision to withdraw or suspend ai
 ```{r}
 #| label: fig-agency-response-tree
 #| fig-cap: Possible donor- and recipient-country responses to human rights violations
+#| fig-alt: |
+#|   A flowchart showing possible reactions to human rights oppression.
+#|   Recipient governments violate human rights. Donor governments can respond by
+#|   doing nothing, threatening the recipient government, withdrawing or suspending
+#|   aid, or shifting aid. Recipient governments can counter-respond by doing
+#|   nothing, modifying policies to improve relationships, or pressuring donors
+#|   to back down.
 #| include: true
 #| fig-width: 6
 #| fig-height: 3.8
 #| out-width: 80%
+
+# fig-alt-short: "A flowchart showing possible reactions to oppression: recipient governments violate human rights, donors respond, and recipients counter-respond."
 
 nodes <- tribble(
   ~id, ~x, ~y,  ~step,
@@ -169,13 +178,13 @@ Donor countries thus have a range of possible responses to recipient repression,
 
 Research on aid conditionality and agency responses to human rights abuses tends to look at more overt and violent forms of political repression, or higher layers in the @EarlBraithwaite:2022 framework. The effects of more subtle administrative crackdown on aid—including the passage of anti-NGO laws, the constricting of civic space, and other layer 3 institutions—are less explored. Civil society plays a central role in the distribution and implementation of international aid. Government agencies, such as the United States Agency for International Development (USAID) and the United Kingdom's Foreign, Commonwealth and Development Office (FCDO), channel substantial funding through NGOs in recipient countries. Outsourcing the provision of aid to NGOs allows donors to avoid aid capture in weak institutional environments and can lead to more effective program implementation [@Dietrich:2013; @CruzLabonneWright:2024]. Given the importance of NGOs in aid delivery, we have reason to expect that donor responses to civil society crackdown abroad are treated differently than more violent forms of repression, following different pathways in @fig-agency-response-tree.
 
-Donor countries have a range of possible responses when recipient countries engage in administrative crackdown. Recent research finds that national and multilateral aid agencies are responsive to anti-NGO laws, though often in inconsistent ways [@ChaudhryHeiss:2022a]. @ChristensenWeinstein:2013 show that aid from bilateral donors—or direct country-to-country aid—sees an average decrease of $25 million after recipient states pass laws that restrict the flow of foreign funds to NGOs. However, aid from multilateral agencies is not affected by these laws. Similarly, @DupuyPrakash:2018 find that the adoption of a restrictive foreign funding law is associated with a 32% decline in aid from bilateral donors, but has no corresponding change in aid from multilateral donors. 
+Donor countries have a range of possible responses when recipient countries engage in administrative crackdown. Recent research finds that national and multilateral aid agencies are responsive to anti-NGO laws, though often in inconsistent ways [@ChaudhryHeiss:2022]. @ChristensenWeinstein:2013 show that aid from bilateral donors—or direct country-to-country aid—sees an average decrease of $25 million after recipient states pass laws that restrict the flow of foreign funds to NGOs. However, aid from multilateral agencies is not affected by these laws. Similarly, @DupuyPrakash:2018 find that the adoption of a restrictive foreign funding law is associated with a 32% decline in aid from bilateral donors, but has no corresponding change in aid from multilateral donors. 
 
 One key reason for the divergence in the responses of national and international agencies is the degree to which these donors rely on recipient-country NGOs to implement programs. Donor agencies prioritize the openness of civil society in recipient countries in different ways. Multilateral donors like the World Bank and OECD tend to channel money directly to recipient governments rather than domestic NGOs and are thus more insulated from the effects of local civil society repression, which likely explains the lack of formal response to anti-NGO laws [@ChristensenWeinstein:2013; @DupuyPrakash:2018]. There is more variation, however, in how bilateral donors work with domestic NGOs. @AllenFlynn:2018 find that the domestic political environments of donor countries shape how those countries channel their aid abroad. Because they tend to focus more on poverty alleviation initiatives, states with left-leaning governments typically channel more aid through recipient-country NGOs. In contrast, right-leaning governments are typically interested in promoting the economic and political interests of their own states, and accordingly prefer to channel aid directly through recipient-country governments [@AllenFlynn:2018]. Human rights abuses in recipient countries will shape the responses of donor countries depending on the saliency of the threat to aid provision: political repression that threatens business interests and investments will be more salient to right-leaning governments, while anti-NGO civil society administrative crackdown will likely have a stronger effect on left-leaning governments' responses, since domestic NGOs are central to donor countries' aid distribution strategies. This dynamic indicates ways that the @EarlBraithwaite:2022 framework might be expanded to work between states—layer 3 institutions like civil society regulations in donor countries can affect perceptions of layer 3 institutions in recipient countries, and vice versa.
 
 The nature of civil society restrictions also influences how official donor agencies respond. @ChristensenWeinstein:2013 cataloged civil society laws into three broader categories—barriers to funding, barriers to entry, and barriers to advocacy—but they, and others like @DupuyPrakash:2018, dedicated the bulk of their analysis to looking at the effects of barriers to funding. This focus on funding restrictions is warranted, as most authoritarian civil society legal restrictions have been aimed specifically at reducing or controlling foreign funding [@Heiss:2019; @Carothers:2015a; @CarothersBrechenmacher:2014]. Moreover, the relationship between foreign aid and foreign funding restrictions appears to be bidirectional, as states are more likely to pass restrictive foreign funding laws in response to increases in bilateral aid [@DupuyRonPrakash:2016], especially during competitive elections or times of political protest or instability [@Chaudhry:2022; @Heiss:2017]. Foreign funding restrictions and aid are thus linked: increasing aid leads to more funding restrictions [@DupuyRonPrakash:2016], which in turn lead to reductions in aid [@DupuyPrakash:2018].
 
-Though most anti-NGO laws have targeted foreign funding, others impose barriers to entry, such as strict and burdensome registration requirements, and barriers to advocacy that explicitly limit NGO political participation, specifically through vaguely defined "political activities" [@Chaudhry:2022]. Donor countries respond differently to these types of oppression. @ChaudhryHeiss:2024 find that bilateral donors are quite responsive to barriers to advocacy—on average, total foreign aid decreases by 30–40% (or \$100 in a typical country) following the passage of an advocacy-focused NGO law [see also @ChaudhryHeiss:2022a]. @RightSpringmanWibbels:2024 find similar and more nuanced trends in donor responses: donors committed to political advocacy (i.e. those that fund democracy and civil society promotion activities) reduce funding for advocacy programs by more than 70% in response to new restrictions, and the reduction in aid persists for several years.
+Though most anti-NGO laws have targeted foreign funding, others impose barriers to entry, such as strict and burdensome registration requirements, and barriers to advocacy that explicitly limit NGO political participation, specifically through vaguely defined "political activities" [@Chaudhry:2022]. Donor countries respond differently to these types of oppression. @ChaudhryHeiss:2024 find that bilateral donors are quite responsive to barriers to advocacy—on average, total foreign aid decreases by 30–40% (or \$100 in a typical country) following the passage of an advocacy-focused NGO law [see also @ChaudhryHeiss:2022]. @RightSpringmanWibbels:2024 find similar and more nuanced trends in donor responses: donors committed to political advocacy (i.e. those that fund democracy and civil society promotion activities) reduce funding for advocacy programs by more than 70% in response to new restrictions, and the reduction in aid persists for several years.
 
 Overall, bilateral aid does not decrease significantly in response to new barriers to entry, but the distribution channels of that aid shift as donor countries channel more aid through domestic rather than foreign NGOs [@ChaudhryHeiss:2024]. USAID even explicitly encourages its program managers to rely more on domestic, in-country NGOs when facing a restrictive legal environment [@USAID:2014]. In addition to changing the amounts and recipients of foreign aid, donor agencies often adjust the focus of the programs they fund, redirecting funding away from programs related to politically sensitive issues like human rights, anti-corruption, and democratic development and towards tamer topics that are more compatible with recipient-country preferences, such as education, health, and humanitarian services [@Bush:2015].
 
@@ -194,10 +203,17 @@ Donor motivations influence how individuals respond when potential recipient org
 ```{r}
 #| label: fig-individual-response-tree
 #| fig-cap: Possible individual responses to civil society restrictions in recipient countries
+#| fig-alt: |
+#|   A flowchart showing possible individual and NGO reactions to civil society
+#|   restrictions. NGO host governments restrict civil society. Individual private
+#|   donors can respond by doing nothing, increasing their donations, or decreasing 
+#|   their donations. NGOs then respond in an unknown way.
 #| include: true
 #| fig-width: 6
 #| fig-height: 2.8
 #| out-width: 80%
+
+# fig-alt-short: "A flowchart showing possible individual and NGO reactions to civil society restrictions: governments limit civil society, individual donors respond."
 
 nodes <- tribble(
   ~id, ~x, ~y, ~step,
